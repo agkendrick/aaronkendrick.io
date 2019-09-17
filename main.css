@@ -1,0 +1,77 @@
+body {
+  background-image: url("assets/images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+a.btn:focus {
+  box-shadow: none;
+}
+
+.main {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 17%;
+}
+
+.main .sm-icons {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.main .sm-icons a {
+  color: white;
+}
+
+.main .sm-icons a:hover, .main .sm-icons a:focus {
+  text-decoration: none;
+}
+
+.main .sm-icons a:hover .fa-envelope-o, .main .sm-icons a:focus .fa-envelope-o {
+  color: #ffa930;
+}
+
+.main .sm-icons a:hover .fa-linkedin, .main .sm-icons a:focus .fa-linkedin {
+  color: #0976b4;;
+}
+
+.main .sm-icons a:hover .fa-github, .main .sm-icons a:focus .fa-github {
+  color: #6cc644;
+}
+.main .sm-icons span {
+  padding: 14px 10px;
+}
+
+.main .header-button {
+  border-radius: 0;
+  border-width: 2px;
+  border-color: #fff;
+  color: #fff;
+  background-color: transparent;
+  margin: 0px 5px;
+  font-weight: 300;
+  width: 100px;
+}
+
+.main .header-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.main p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 0 10px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.main h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4.5em;
+  font-weight: 100;
+  color: #fff;
+  text-transform: uppercase;
+}
