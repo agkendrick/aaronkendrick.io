@@ -59,10 +59,14 @@
 								<i>Fullstack development of RapidIdentity, Identity Automation's flagship IAM platform</i>
 								<!-- <br></br> -->
 								<ul>
-									<li>Developed Java REST API's (JAX-RS) according to Google's API Design Guide</li>
-									<li>Performed root cause analysis and applied solutions for production issues in the Rapid Identity product</li>
+									<li>Implemented exponential back-off on failed authentication attempts across all of RapidIdentity's authentication types (user/pass, pictograph, DUO, QR, SMS, etc) used to help thwart malicious actors</li>
+									<li>Added the ability to test connections/validate configurations for RI Studio consumer and producer applications over a variety of protocols including HTTPS, S3, FTP, FTPS and SFTP</li>
+									<li>Overhauled RI's role sync scheduler to use a cron expression instead of the timestamp of the last run in order to maintain a consistent sync schedule</li>
+									<li>Implemented a REST service (Java/JAX-RS) based on the IMS OneRoster 1.2 specification used to exchange student data (people, enrollments, courses, etc) between RapidIdentity and Student Information Systems</li>
 									<li>Developed/deployed greenfield JavaScript/Ember Octane SPA for IA's new IDHub product.  Also supported legacy Ember apps</li>
 									<li>Automated back-end infrastructure provisioning for the IDHub project using Terraform and setup CI/CD pipelines</li>
+									<li>Created and applied LDAP schema updates for RI's OpenLDAP server</li>
+									<li>Performed root cause analysis and applied solutions for production issues in the Rapid Identity product</li>
 								</ul>
 							</div>
 
@@ -147,8 +151,8 @@
 							<ul class="talent">
 								<li>HTML/CSS/SASS</li>
 								<li>Javascript/TypeScript</li>
-								<li>React/Redux</li>
-								<li>Ember.js</li>
+								<li>React/Vue.js/Ember.js</li>
+								<li>Jest/NUnit/JUnit</li>
 								<li class="last">Node.JS/Express</li>
 							</ul>
 
@@ -157,13 +161,13 @@
 								<li>Java/Spring</li>
 								<li>EntityFramework/Hibernate</li>
 								<li>SQLServer/MySQL/Postgres</li>
-								<li class="last">Jest/NUnit/JUnit</li>
+								<li class="last">RabbitMQ</li>
 							</ul>
 
 							<ul class="talent">
 								<li>GIT/Gitlab/Github</li>
-								<li>Docker</li>
-								<li>AWS/Azure</li>
+								<li>Docker/Kubernetes</li>
+								<li>AWS/Azure/GCP</li>
 								<li>Terraform</li>
 								<li class="last">GraphQL/REST/RPC</li>
 							</ul>
